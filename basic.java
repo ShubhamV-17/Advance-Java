@@ -9,7 +9,7 @@ public class basic {
 
     // function involving parameter
 
-    public static int calculatesum(int a, int b) {
+    public static int calculatesum(int a, int b) { // parameter or formal parameter
         int sum = a + b;
         return sum;
     }
@@ -18,7 +18,7 @@ public class basic {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int sum = calculatesum(a, b);
+        int sum = calculatesum(a, b); // arguments or actual parameters
         printhelloworld();
     }
 }
