@@ -15,8 +15,7 @@ public class largestnumber {
     }
 
     public static void main(String[] args) {
-        int number[] = { 1, 2, 6, 3, 5 };
-        System.out.println("largest value is : " + getlargest(number));
-
+        int marks[] = { 1, 2, 6, 3, 5 };
+        System.out.println("largest value is : " + getlargest(marks));
     }
 }

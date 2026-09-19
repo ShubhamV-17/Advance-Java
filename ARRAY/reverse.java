@@ -14,11 +14,11 @@ public class reverse {
     }
 
     public static void main(String[] args) {
-        int marks[] = { 2, 4, 6, 8, 10 };
-        reverse_karo(marks);
+        int num[] = { 2, 4, 6, 8, 10 };
+        reverse_karo(num);
 
-        for (int i = 0; i < marks.length; i++) {
-            System.out.print(marks[i] + " ");
+        for (int i = 0; i < num.length; i++) {
+            System.out.print(num[i] + " ");
         }
         System.out.println();
     }
