@@ -1,5 +1,5 @@
-public class kadanes {
-    public static void kadans_solve(int number[]) {
+public class demo1 {
+    public static void kadan(int number[]) {
         int ms = Integer.MIN_VALUE;
         int cs = 0;
         for (int i = 0; i < number.length; i++) {
@@ -9,11 +9,13 @@ public class kadanes {
             }
             ms = Math.max(cs, ms);
         }
-        System.out.println("our max subaray sum is : " + ms);
+        System.out.println(ms);
+
     }
 
     public static void main(String[] args) {
         int array[] = { -2, -3, 4, -1, -2, 1, 5, -3 };
-        kadans_solve(array);
+        kadan(array);
     }
+
 }
