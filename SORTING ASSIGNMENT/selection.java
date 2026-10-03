@@ -8,7 +8,7 @@ public class selection {
 
             for (int j = i + 1; j < arr.length; j++) {
 
-                if (arr[minpos] > arr[j]) {
+                if (arr[minpos] < arr[j]) {
                     minpos = j;
                 }
             }
