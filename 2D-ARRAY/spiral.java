@@ -21,11 +21,17 @@ public class spiral {
 
             // Bottom boundary
             for (int j = endcol - 1; j >= startCol; j--) {
+                if (startRow == endrow) {
+                    break;
+                }
                 System.out.print(matrix[endrow][j] + " ");
             }
 
             // Left boundary
             for (int i = endrow - 1; i >= startRow + 1; i--) {
+                if (startCol == endcol) {
+                    return;
+                }
                 System.out.print(matrix[i][startCol] + " ");
             }
 
