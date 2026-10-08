@@ -1,8 +1,7 @@
 public class diagonalsum {
     public static int printdiagonalsum(int matrix[][]) {
-        int sum = 0;
-
         // brute force approch
+        int sum = 0;
 
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[0].length; j++) {
@@ -13,8 +12,12 @@ public class diagonalsum {
                 }
             }
         }
+        return sum;
+    }
 
-        // optimal approch
+    // optimal approch
+    public static int fromoptimam(int matrix[][]) {
+        int sum = 0;
         for (int i = 0; i < matrix.length; i++) {
             // primary diagonal
             sum += matrix[i][i];
