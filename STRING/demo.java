@@ -8,8 +8,7 @@ public class demo {
 
         // strings are IMMUTABLE
         Scanner sc = new Scanner(System.in);
-        String name;
-        name = sc.nextLine();
+        String name = sc.nextLine();
         System.out.println(name);
         String fullname = "tony stark";
         System.out.println(fullname.length());
