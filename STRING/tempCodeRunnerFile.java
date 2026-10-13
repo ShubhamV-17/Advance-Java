@@ -1,1 +1,1 @@
-str
+path
