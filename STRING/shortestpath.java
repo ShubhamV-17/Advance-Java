@@ -9,6 +9,8 @@ public class shortestpath {
 
             if (dir == 'S') {
                 y--;
+
+                
             } else if (dir == 'N') {
                 y++;
             } else if (dir == 'W') {
